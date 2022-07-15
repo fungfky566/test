@@ -77,7 +77,7 @@ jobs:
     # 🖊️ Uncomment this if you are using CRDA scan step above
     # needs: crda-scan
     name: Build and deploy to OpenShift
-    runs-on: ["self-hosted", "dsri", "my-org" ]
+    runs-on: ["self-hosted"]
     environment: production
 
     outputs:
